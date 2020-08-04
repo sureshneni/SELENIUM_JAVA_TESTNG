@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64391" started-at="2020-08-04T00:20:54Z" finished-at="2020-08-04T00:21:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64391" started-at="2020-08-04T00:20:54Z" finished-at="2020-08-04T00:21:59Z">
+      <class name="selenium.com.qa.ohrm.tests.BaseTest">
+        <test-method status="PASS" signature="dirverCreation()[pri:0, instance:selenium.com.qa.ohrm.tests.BaseTest@5f341870]" name="dirverCreation" is-config="true" duration-ms="7067" started-at="2020-08-04T05:50:54Z" finished-at="2020-08-04T05:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dirverCreation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:selenium.com.qa.ohrm.tests.BaseTest@5f341870]" name="closeBrowser" is-config="true" duration-ms="157" started-at="2020-08-04T05:51:59Z" finished-at="2020-08-04T05:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- selenium.com.qa.ohrm.tests.BaseTest -->
+      <class name="selenium.com.qa.ohrm.tests.LoginTest">
+        <test-method status="PASS" signature="loginOhrm()[pri:0, instance:selenium.com.qa.ohrm.tests.LoginTest@553f17c]" name="loginOhrm" duration-ms="8181" started-at="2020-08-04T05:51:01Z" finished-at="2020-08-04T05:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOhrm -->
+      </class> <!-- selenium.com.qa.ohrm.tests.LoginTest -->
+      <class name="selenium.com.qa.ohrm.tests.HomeTest">
+        <test-method status="PASS" signature="navigateToAddUsersSection()[pri:0, instance:selenium.com.qa.ohrm.tests.HomeTest@4f7d0008]" name="navigateToAddUsersSection" duration-ms="11916" started-at="2020-08-04T05:51:10Z" description="Navigate to Add users page" finished-at="2020-08-04T05:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddUsersSection -->
+        <test-method status="PASS" signature="addUserTest()[pri:0, instance:selenium.com.qa.ohrm.tests.HomeTest@4f7d0008]" name="addUserTest" duration-ms="19932" started-at="2020-08-04T05:51:22Z" depends-on-methods="selenium.com.qa.ohrm.tests.HomeTest.navigateToAddUsersSection" finished-at="2020-08-04T05:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+        <test-method status="PASS" signature="searchAndDeleteUser()[pri:0, instance:selenium.com.qa.ohrm.tests.HomeTest@4f7d0008]" name="searchAndDeleteUser" duration-ms="17254" started-at="2020-08-04T05:51:42Z" depends-on-methods="selenium.com.qa.ohrm.tests.HomeTest.addUserTest" finished-at="2020-08-04T05:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndDeleteUser -->
+      </class> <!-- selenium.com.qa.ohrm.tests.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
