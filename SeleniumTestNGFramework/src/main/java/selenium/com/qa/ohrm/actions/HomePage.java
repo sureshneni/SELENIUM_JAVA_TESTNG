@@ -10,7 +10,7 @@ import org.testng.Assert;
 public class HomePage extends BasePage{
 
 	WebElement element;
-	public String admin_id = "menu_admin_viewAdminModule";
+	public String admin_class = "firstLevelMenu";
 	public String admin_user_mgmt_id = "menu_admin_UserManagement";
 	public String admin_users_id = "menu_admin_viewSystemUsers";
 	
@@ -24,12 +24,12 @@ public class HomePage extends BasePage{
 	public void getAdminMenu() {
 		logger.info("user mouse over to Admin menu");
 		Actions actions = new Actions(driver);
-		this.element = getLocator("id", admin_id);
-		
-		
+	
+		this.element = getLocator("class", admin_class);
+		System.out.println("displayed: " + element.isDisplayed());
 		actions.moveToElement(this.element).perform();
 		try{
-			Thread.sleep(3000);
+			Thread.sleep(6000);
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
